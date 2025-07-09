@@ -1,0 +1,12 @@
+2025-07-10 02:51:50,871 - INFO - Trying to load config from: D:/my-projects/python-projects/data-extractor/configs/system_configs.json
+2025-07-10 02:51:50,872 - ERROR - Invalid json in config file : Extra data: line 18 column 1 (char 303)
+2025-07-10 02:53:18,185 - INFO - Trying to load config from: D:/my-projects/python-projects/data-extractor/configs/system_configs.json
+2025-07-10 02:53:18,185 - ERROR - Invalid json in config file : Extra data: line 18 column 1 (char 303)
+2025-07-10 02:53:18,185 - ERROR - Aborting execution because config could not be loaded.
+2025-07-10 02:54:06,064 - INFO - Trying to load config from: D:/my-projects/python-projects/data-extractor/configs/system_configs.json
+2025-07-10 02:54:06,065 - ERROR - Invalid json in config file : Extra data: line 18 column 1 (char 303)
+2025-07-10 02:54:06,065 - ERROR - Aborting execution because config could not be loaded.
+2025-07-10 02:59:43,099 - INFO - Trying to load config from: D:/my-projects/python-projects/data-extractor/configs/system_configs.json
+2025-07-10 02:59:43,100 - INFO - Config loaded successfully: {'SOURCE_TYPE': 'api', 'SYSTEM_NAME': 'SIPHON', 'FILE_FORMAT': 'json', 'BASE_URL': 'https://api.football-data.org/v4', 'CONNECTION_NAME': 'football_api_conn', 'RETRY_COUNT': 3, 'TIMEOUT': 30, 'IS_ACTIVE': 'true'}
+2025-07-10 03:03:30,576 - INFO - Trying to load config from: D:/my-projects/python-projects/data-extractor/configs/system_configs.json
+2025-07-10 03:03:30,577 - INFO - Config loaded successfully: {'SOURCE_TYPE': 'api', 'SYSTEM_NAME': 'SIPHON', 'FILE_FORMAT': 'json', 'BASE_URL': 'https://api.football-data.org/v4', 'CONNECTION_NAME': 'football_api_conn', 'RETRY_COUNT': 3, 'TIMEOUT': 30, 'IS_ACTIVE': 'true'}

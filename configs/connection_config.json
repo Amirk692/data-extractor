@@ -1,0 +1,11 @@
+{
+
+"SOURCE_SYSTEM_URL": "https://api.football-data.org/v4/matches",
+"AUTH_TYPE": "api_key",
+"AUTH_KEY_NAME": "X-Auth-Token",
+"AUTH_KEY_VALUE": "50046b92bda44f51939a24ef8c99ac01",
+"TARGET_DB": "mssql server",
+"HOST" : "localhost",
+"PORT": 5432
+
+}
