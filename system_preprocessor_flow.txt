@@ -1,0 +1,48 @@
+START
+  │
+  ▼
+Import libraries: json, os, logging
+  │
+  ▼
+Setup logging (log to file, set level, format)
+  │
+  ▼
+Define class: SystemPreprocessor
+  │
+  ▼
+Create object: preprocessor = SystemPreprocessor(config_path)
+  │
+  ▼
+┌────────────────────────────────────┐
+│         load_config()              │
+│ - Read JSON config                 │
+│ - Store in self.config             │
+│ - Log success or error             │
+└────────────────────────────────────┘
+  │
+  ▼
+┌────────────────────────────────────┐
+│       validate_config()            │
+│ - Check required keys              │
+│ - Raise error if missing           │
+│ - Log error if any                 │
+└────────────────────────────────────┘
+  │
+  ▼
+┌────────────────────────────────────┐
+│   create_working_directory()       │
+│ - Read SYSTEM_NAME from config     │
+│ - Create folders: input, logs, etc │
+│ - Log created/existing folders     │
+└────────────────────────────────────┘
+  │
+  ▼
+┌────────────────────────────────────┐
+│  create_system_master_param()      │
+│ - Add WORKING_DIR to config        │
+│ - Save updated config to JSON file │
+│ - Log save success                 │
+└────────────────────────────────────┘
+  │
+  ▼
+  END ✅ System is ready

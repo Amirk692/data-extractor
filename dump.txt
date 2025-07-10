@@ -1,0 +1,8 @@
+"job_name": "System_name",
+    "run_mode": {
+        
+        "active": "dev",
+        "available":["dev", "prod"]    
+            
+    },
+    "logging_level": "DEBUG"

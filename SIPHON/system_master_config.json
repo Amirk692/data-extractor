@@ -1,0 +1,11 @@
+{
+    "SOURCE_TYPE": "api",
+    "SYSTEM_NAME": "SIPHON",
+    "FILE_FORMAT": "json",
+    "BASE_URL": "https://api.football-data.org/v4",
+    "CONNECTION_NAME": "football_api_conn",
+    "RETRY_COUNT": 3,
+    "TIMEOUT": 30,
+    "IS_ACTIVE": "true",
+    "WORKING_DIR": "D:/my-projects/python-projects/data-extractor\\SIPHON"
+}
